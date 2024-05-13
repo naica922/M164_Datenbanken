@@ -54,13 +54,15 @@ Auch die Beziehungen zwischen den Datenobjekten müssen klar definiert werden un
 2. Zeile
 4. Attributwerte
 5. Entität
+![image](https://github.com/naica922/M164_Datenbanken/assets/150661049/7a336e0d-54fa-4b96-82bb-a3b1462aaeff)
 
 
 ## 7. Constraints
-Alle die folgenden Begriffe sind Einschränungen auch Constraints genannt:
-Primary Key
-Foreign Key
-Unique
-Not Null
-Default 
-Check
+Alle die folgenden Begriffe sind Einschränungen auch Constraints genannt:<br>
+Primary Key<br>
+Foreign Key<br>
+Unique<br>
+Not Null<br>
+Default<br>
+Check<br>
+![image](https://github.com/naica922/M164_Datenbanken/assets/150661049/2e8c0cec-7486-481d-94ac-1fa91fd6a384)
