@@ -11,20 +11,21 @@ Der Fremdschlüssel aif den Arbeitgeber gehört nähmlich nicht zu identität ei
 
 ## Auftrag
 Beispiel mit zwei unterschiedlichen Beziehungen erstellen:
-- Screenshot einfügen
+- ![![MySQL Workbench Beispiel](image-6.png)](image-5.png)
 
 Eigene Beispiele wo identifying Beziehung sinn macht: 
 - Gebäude und Räume 
 
-- Identifiying könnten Vorlesungen und Prüfungen sein
-- Non-Identifying zwischen Professoren und Vorlesungen.
+- Identifiying könnten Vorlesungen und Prüfungen sein,
+Non-Identifying zwischen Professoren und Vorlesungen.
 
 - Ein Beispiel was auch sinn macht sind bestellungen und - Bestellpositionen. Eine Bestellung hat mehrere Bestellpositionen.
 
 - Buch und Kapitel, Kapitel gehören zu einem Buch und es kann beliebig - - viele enthalten. Ein Kapitel gehört immer nur zu einem Buch
 
 Andere Beispiele:
--
+- Schloss und Schlüssel
+- Fahrzeug und Fahrzeugzulassubg
 
 Phind Beispiele Anwendungsfälle:
 
