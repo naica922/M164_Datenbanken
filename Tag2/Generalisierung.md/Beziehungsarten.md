@@ -35,4 +35,28 @@ Phind Beispiele Anwendungsfälle:
 
 Aussehen SQL Statements Non Identifying und Identifying:
 Identifying-> Der Primärschlüssel der Childtable enthält den Primärschlüssel der Parenttable.
+CREATE TABLE Kunde (
+    KundenID INT PRIMARY KEY,
+    Kundenname VARCHAR(100)
+);
+
+CREATE TABLE Bestellung (
+    BestellID INT,
+    KundenID INT,
+    Bestelldatum DATE,
+    PRIMARY KEY (BestellID, KundenID),
+    FOREIGN KEY (KundenID) REFERENCES Kunde(KundenID)
+);
+
 Non identifying-> Der Primärschlüssel der Childtable ist unabhängig vom Primärschlüssel der Parenttable, obwohl er einen Fremdschlüssel zur Parenttable hat.
+CREATE TABLE Kunde (
+    KundenID INT PRIMARY KEY,
+    Kundenname VARCHAR(100)
+);
+
+CREATE TABLE Bestellung (
+    BestellID INT PRIMARY KEY,
+    KundenID INT,
+    Bestelldatum DATE,
+    FOREIGN KEY (KundenID) REFERENCES Kunde(KundenID)
+);
