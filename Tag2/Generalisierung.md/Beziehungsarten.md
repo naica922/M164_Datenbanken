@@ -11,7 +11,7 @@ Der Fremdschlüssel aif den Arbeitgeber gehört nähmlich nicht zu identität ei
 
 ## Auftrag
 Beispiel mit zwei unterschiedlichen Beziehungen erstellen:
-- ![![MySQL Workbench Beispiel](image-6.png)](image-5.png)
+![![MySQL Workbench Beispiel](image-6.png)](image-5.png)
 
 Eigene Beispiele wo identifying Beziehung sinn macht: 
 - Gebäude und Räume 
@@ -32,3 +32,7 @@ Phind Beispiele Anwendungsfälle:
 - Artikel und Zitierungen, ein Artikel kann mehrere Zitierungen haben
 
 - Konferenz und Vorträge, eine Konferenz besteht aus mehreren Vorträgen.
+
+Aussehen SQL Statements Non Identifying und Identifying:
+Identifying-> Der Primärschlüssel der Childtable enthält den Primärschlüssel der Parenttable.
+Non identifying-> Der Primärschlüssel der Childtable ist unabhängig vom Primärschlüssel der Parenttable, obwohl er einen Fremdschlüssel zur Parenttable hat.
