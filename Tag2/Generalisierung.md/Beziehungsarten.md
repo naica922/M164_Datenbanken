@@ -1,10 +1,11 @@
 # Beziehungsarten Indentifying / Non-Identifying relationship
 ## 2 Arten von Beziehungen in Datenbanken
-Identifiying: Der Foreign Key ist Teil des Primary Keys der Child Tabelle
+Identifiying: <br>
+Der Foreign Key ist Teil des Primary Keys der Child Tabelle
 Fremdschlüssel ist Bestandteil des Indentifikationsschlüsseks 
 ![Identifiying Beispiel](image-3.png)
 
-Non identifiying Relationships: Foreign Key ist kein Teil des Primary Keys der Child Tabelle, Beispiel ist die Beziehung Mitarbeiter/Abteilung.
+Non identifiying Relationships:<br> Foreign Key ist kein Teil des Primary Keys der Child Tabelle, Beispiel ist die Beziehung Mitarbeiter/Abteilung.
 Der Fremdschlüssel aif den Arbeitgeber gehört nähmlich nicht zu identität einer Person. Jedenfalls nicht der Inhalt. 
 ![Non Identifying Beispiel](image-4.png)
 
