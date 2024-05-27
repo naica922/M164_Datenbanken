@@ -398,7 +398,7 @@ Datenbankdateien: Physische Dateien auf dem Speichergerät, in denen die Daten g
 Segments: Logische Einheiten innerhalb eines Tablespace, die Tabellen, Indizes oder andere Datenbankobjekte enthalten.
 Extents: Gruppen von zusammenhängenden Datenblöcken, die von einem Segment verwendet werden.
 Datenblöcke: Die kleinste Speichereinheit innerhalb eines Tablespace, die tatsächliche Daten enthält.
-Diese Struktur ermöglicht eine effiziente Verwaltung und Zuweisung von Speicherplatz innerhalb der Datenbank.
+Diese Struktur virtueller Speicher (cache) ermöglicht eine effiziente Verwaltung und Zuweisung von Speicherplatz innerhalb der Datenbank.
 
 Partition (bezgl. Datenbanken):
 Partitionierung in Datenbanken bezieht sich auf das Aufteilen großer Tabellen in kleinere, besser verwaltbare Teile, die als Partitionen bezeichnet werden. Jede Partition kann unabhängig verwaltet, indiziert und abgefragt werden. Dies verbessert die Leistung und die Verwaltungsfähigkeiten der Datenbank.
