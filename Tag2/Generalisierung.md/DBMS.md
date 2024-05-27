@@ -67,5 +67,6 @@ Einsatz von DBMS reduziert Betriebs und Verwaltungskosten
 Vergleiche Sie die obige Liste mit der aktuellen DB-Ranking: DB-Engine Ranking. Nehmen Sie die wichtigsten 10 DB-Engines in ein Mindmap auf
 
 Mindmap:
-![Top 10 DBMS](image-9.png)
+![image](https://github.com/naica922/M164_Datenbanken/assets/150661049/e421398e-1bc2-48a0-8dd1-d0fef0def7f6)
+
 
