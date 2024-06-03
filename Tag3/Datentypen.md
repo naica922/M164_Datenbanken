@@ -1,4 +1,4 @@
-# Datentypen
+# Datentypen und Beziehungen
 
 ## Tabelle:
 ![Datentypen Tablle](image.png)
@@ -201,4 +201,4 @@ Ein NULL-Wert in der tbl_Hierarchie ist nicht erlaubt, da die Kardinalität eine
 Eine Hierarchie-Tabelle wird anstelle einer rekursiven Beziehung eingesetzt, wenn die Anzahl der Hierarchieebenen fest ist. Bei grossen Organisationen kann eine feste Struktur übersichtlicher und performanter sein als rekursive Abfragen.
 
 - Überprüfen Sie ihre SQL-Datentypen-Tabelle: Check Präsentation
-habe ich gemacht
+habe ich
