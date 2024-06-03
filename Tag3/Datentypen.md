@@ -165,6 +165,7 @@ DROP TABLE bluray_sammlung;
 ```
 
 ## Daten auslesen
+Select Auftrag:
 ```
 -- Setzen des Datenbank-Kontexts
 USE filmedatenbank;
@@ -188,3 +189,16 @@ SELECT film FROM dvd_sammlung WHERE regisseur = 'Quentin Tarantino' ORDER BY lae
 
 ## Erweiterter Tourenplaner mit Daten füllen
 
+
+## Checkpoint
+- Welche Schwierigkeiten beim Einfügen von Daten ergeben sich, wenn z.B. der FK_Vorgesetzer als Constraint definiert ist? (Tipp: ref. Integrität)
+Beim Einfügen von Daten in eine Tabelle mit dem FK_Vorgesetzter als Constraint kann man Schwierigkeiten bekommen, wenn der referenzierte Vorgesetzte noch nicht existiert. Das verletzt die referenzielle Integrität und verhindert das Einfügen. Man muss sicher gehen, dass alle referenzierten Vorgesetzten vorher schon in der Tabelle existieren.
+
+- Warum ist der Wert NULL in der tbl_Hierarchie nicht zulässig? (Tipp: Kardinalität)
+Ein NULL-Wert in der tbl_Hierarchie ist nicht erlaubt, da die Kardinalität eine Hierarchie verlangt. Jede Position muss eindeutig einer anderen Position oder dem obersten zugeordnet sein, um die Struktur der Hierarchie zu bewahren. Ein NULL-Wert würde diese Zuordnung verstossen.
+
+- Wann muss eine Hierarchie-Tabelle anstelle einer rekursiven Beziehung eingesetzt werden? (Tipp: Chefs)
+Eine Hierarchie-Tabelle wird anstelle einer rekursiven Beziehung eingesetzt, wenn die Anzahl der Hierarchieebenen fest ist. Bei grossen Organisationen kann eine feste Struktur übersichtlicher und performanter sein als rekursive Abfragen.
+
+- Überprüfen Sie ihre SQL-Datentypen-Tabelle: Check Präsentation
+habe ich gemacht
