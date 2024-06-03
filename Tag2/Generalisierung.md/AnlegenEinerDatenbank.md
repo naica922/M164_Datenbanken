@@ -19,9 +19,11 @@ UTF-16 verwendet 16-Bit-Zeichen (Java), UTF-32 hat eine fixe Zeichenlänge von 3
 
 ## Auftrag (Repetition)
 CREATE SCHEMA/TABLE (name) -> erstellt tabelle 
+```
 CREATE SCHEMA IF NOT EXISTS `M106` DEFAULT CHARACTER SET utf8mb4;
 USE `M106`;
-
+```
+```
 CREATE TABLE IF NOT EXISTS `tbl_fahrer` (
   `Fahrer_ID` INT NOT NULL AUTO_INCREMENT,
   `Name` VARCHAR(50) NOT NULL,
@@ -91,12 +93,13 @@ ALTER TABLE `tbl_disponent`
   ADD COLUMN `MA_ID` INT NOT NULL,
   ADD CONSTRAINT `fk_disponent_mitarbeiter`
   FOREIGN KEY (`MA_ID`) REFERENCES `tbl_Mitarbeiter`(`MA_ID`);
-
+```
 
 
 ## Forward Engineering mit Workbench 
 -- MySQL Workbench Forward Engineering
 
+```
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
@@ -385,7 +388,7 @@ CREATE TABLE Ausweise (
     Ausweisnummer VARCHAR(20),
     FOREIGN KEY (Person_ID) REFERENCES Personen(Person_ID)
 );
-
+```
 
 ## Recherche und Zusammenfassung
 Recherchieren Sie folgende Begriffe im Internet und erstellen Sie eine Zusammenfassung ins Lernportfolio.
