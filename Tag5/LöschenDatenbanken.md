@@ -1,0 +1,3 @@
+# Löschen in professionellen Datenbanken
+
+In professionellen Anwendungen wird der SQL-Befehl "delete" vermieden, um Informationsverlust zu verhindern. Stattdessen werden Datensätze aktualisiert oder als inaktiv markiert, wie bei austretenden Mitarbeitern, um historische Daten zu erhalten. Zeitliche Abläufe, wie das Verleihen von Gegenständen, werden durch zusätzliche Tabellen abgebildet, nicht durch Überschreiben. In Kassensystemen werden statt Löschungen Stornierungen dokumentiert, um Missbrauch zu verhindern. Systeme wie Wikipedia löschen Benutzerinformationen nicht, sondern sperren Nutzer, um die Integrität der Historie zu bewahren.

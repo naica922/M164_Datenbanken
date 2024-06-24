@@ -1,0 +1,3 @@
+# HAVING
+
+Das Having wird verwendet, um Ergebnisse von Gruppierungsoperationen zu filtern, die durch das GROUP BY-Statement durchgeführt werden. Im Gegensatz zum WHERE-Statement, das auf Zeilen vor der Gruppierung angewendet wird, wird HAVING auf die aggregierten Ergebnisse nach der Gruppierung angewendet. Ein Beispiel zeigt, wie der Gesamtwert der Bestellungen pro Kunde berechnet und nur die Kunden ausgewählt werden, deren Bestellsumme größer als 500 ist. Durch die Kombination von GROUP BY und HAVING können die Abfrageergebnisse weiter verfeinert und gefiltert werden. Das Ergebnis zeigt nur die Kunden, deren Gesamtbestellsumme über 500 liegt.WSSS

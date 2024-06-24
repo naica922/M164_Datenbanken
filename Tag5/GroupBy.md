@@ -1,0 +1,3 @@
+# GROUP BY
+
+Das GROUP BY-Statement in MySQL wird verwendet, um Daten basierend auf einer oder mehreren Spalten zu gruppieren und zusammenzufassen. Es wird oft zusammen mit Aggregatsfunktionen wie COUNT, SUM, AVG, MIN und MAX verwendet, um die Daten in jeder Gruppe zu aggregieren. Beispielsweise kann die Gesamtbestellmenge für jeden Kunden berechnet werden, indem man die Tabelle "orders" nach "customer_id" gruppiert und die SUM-Funktion verwendet. Das Ergebnis zeigt die Kunden-ID und den Gesamtwert der Bestellungen für jeden Kunden. Durch GROUP BY können nützliche, gruppierte Informationen aus Tabellen extrahiert werden.
