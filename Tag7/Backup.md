@@ -39,3 +39,16 @@ Die Backup-Lösung für Windows-Systeme basiert nicht auf PHP und hat daher kein
 
 - Mariabackup:
 Open Source Tool, welches von MariaDB bereitgestellt wird damit man physische Online Backups machen kann. Auf Linux und Windows möglich.
+
+## Datenbank schützen
+In Datenbank gespeicherte Files haben oft hohe Bedeutung für die Abläufe und Anzeige. Man sollte Datenbanken mit Sicherheitsmassnahmen schützen, damit man Angriffe vermeiden kann. Regelmässige Backups beugen Datenverlust vor und garantieren langfristige Datensicherheit. 
+
+Eigener Backup-User für logische Backups:
+```
+GRANT RELOAD, PROCESS, LOCK TABLES, REPLICATION CLIENT ON *.* TO 'backupuser'@'localhost' IDENTIFIED BY 'backup123';
+```
+
+## Auftrag
+
+
+
