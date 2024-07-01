@@ -24,3 +24,18 @@ Voll Backup wird erstellt, Daten die gesichert werden oder sich verändert haben
 - Inkrementielles Backup
 Nur die Daten werden kopiert, die sich seit der letzen Sicherung geändert haben oder neu sind. Ein inkrementielles Backup bezieht sich immer auf das vorherige. Jede Datei wird nur einmal gesichert und der Speicherplatz geschont
 
+## Backups erzeugen
+- MySQL Dump:
+Wird mit Shell Zugriff und integrierter Backup Funktion gemacht, nicht alle Hoster erlauben Zugriff auf diese Funktion
+
+- phpMyAdmin:
+Administrations Plattforn für SQL Benutzer, man kann die Datenbank in gewünschtem Format exportieren. Bei grossen Datenbanken gefahr vor Abbruch
+
+- BigDump:
+Ergänzung zu phpMyAdmin, kann grosse Backups wieder einspielen
+
+- HeidiSQL:
+Die Backup-Lösung für Windows-Systeme basiert nicht auf PHP und hat daher keine Probleme mit großen Backups
+
+- Mariabackup:
+Open Source Tool, welches von MariaDB bereitgestellt wird damit man physische Online Backups machen kann. Auf Linux und Windows möglich.
